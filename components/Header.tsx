@@ -38,7 +38,7 @@ export default function Header() {
 			<div className="flex items-center justify-center px-5 md:py-5 py-2">
 				<p className="flex items-center p-5 text-sm font-light pr-5 shadow-xl rounded-xl w-fit bg-white italic max-w-3xl text-[#4680c3]">
 					<UserCircleIcon className="inline-block h-10 w-10 text-[#4680c3] mr-1" />
-                    GPT is summarising your tasks for he day...
+                    GPT is summarising your tasks for the day...
 				</p>
 			</div>
 		</header>
