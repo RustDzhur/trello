@@ -19,7 +19,7 @@ interface BoardState {
 	searchString: string;
 	setSearchString: (searchString: string) => void;
 
-	addTask: (todo: String, columnId: TypedColumn, image?: File | null) => void;
+	addTask: (todo: string, columnId: TypedColumn, image?: File | null) => void;
 	deleteTask: (taskIndex: number, todoId: Todo, id: TypedColumn) => void;
 }
 
@@ -70,7 +70,7 @@ const useBoardStore = create<BoardState>((set, get) => ({
 	},
 
 	addTask: async (
-		todo: String,
+		todo: string,
 		columnId: TypedColumn,
 		image?: File | null
 	) => {
