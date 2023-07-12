@@ -6,7 +6,7 @@ type TypedColumn = "todo" | "inprogress" | "done";
 
 interface Column {
     id: TypedColumn,
-    todos: []
+    todos: Todo[]
 }
 
 interface Todo extends Models.document {
